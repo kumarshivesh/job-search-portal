@@ -1,6 +1,6 @@
 1. Live Link of Website: https://kumarshivesh.github.io/job-search-portal/
 2. Source Code Files (Google Drive Link) : https://drive.google.com/drive/folders/1voqDM_Vk2u8OprvSSd6c2e5wUWU3k9Ir?usp=drive_link
-3. `readme.txt` file explaining the source code, APIs, etc: It is inside the 
+3. `readme.txt` file explaining the source code, APIs, etc: It is inside the Source Code Files
 4. GitHub Link of Website: https://github.com/kumarshivesh/job-search-portal
 
 
