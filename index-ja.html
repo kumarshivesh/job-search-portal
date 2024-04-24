@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日本での就労機会</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- START: header -->
+  <header class="header-container">
+    <div class="navbar-content">
+      <a href="#logo" class="logo">
+        <img src="./images/logo-rbg-2.png" alt="logoK" class="logo-icon" />
+        <span class="logo-text">仕事を探す</span>
+        <a href="index.html" class="language">English</a>
+      </a>
+
+      <ul>
+        <li><a href="#home" class="nav-link">家</a></li>
+        <li><a href="#job-listings" class="nav-link">求人情報</a></li>
+        <li><a href="#about-japan" class="nav-link">日本について</a></li>
+        <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+        <li><i class="nav-link fa-solid fa-moon"></i></li>
+      </ul>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <img src="./images/bars-solid.svg" class="fa-solid fa-bars" alt="bars"> -->
+      </div>
+    </div>
+  </header>
+  <!-- END: header -->
+
+ <!-- START: home -->
+ <section id="home" class="home-container">
+  <div class="image-slider-content">
+    <div class="top">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="slider">
+      <!-- Each image has resolution of 1280px X 720px -->
+      <img src="./images/home-r1.jpg" class="images" alt="image-1">
+      <img src="./images/home-r2.jpg" class="images" alt="image-2">
+      <img src="./images/home-r7.jpg" class="images" alt="image-3">
+      <img src="./images/home-r8.jpg" class="images" alt="image-4">
+      <img src="./images/home-r9.jpg" class="images" alt="image-4">
+    </div>
+    <i class="fa-solid fa-angle-right"></i>
+    </div>
+    <div class="bottom">
+      <!-- <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div>
+      <div class="button"></div> -->
+    </div> 
+  </div>
+  <p>日本での夢のキャリアを確保するための究極の目的地である仕事を見つけることを歓迎します。私たちのユーザーフレンドリーな ウェブ アプリケーションは、就職活動を簡単な四つのステップに簡素化します。まず、豊富なリストを閲覧し、ポータルから直接目的の仕事に応募してください。第二に、あなたのスキルと経験を紹介する機会がある面接の段階に備えてください。第三に、面接プロセス中に潜在的な雇用主に感銘を与え、自信を持ってハードルをクリアします。最後に、ポジションの確保に成功したら、エキサイティングな新しい旅に乗り出し、新しい会社に参加する時が来ました。仕事を探す を使えば、日本でキャリア志向を達成することはかつてないほど身近になりました。今日、私たちと一緒に旅を始め、充実したキャリアパスへの第一歩を踏み出してください。</p>
+ </section>
+ <!-- END: home -->
+  
+
+  <!-- START: job-listings -->
+  <section id="job-listings" class="job-listings-container">
+    <h2>求人情報</h2>
+    <p class="main-description">日出ずる国で夢のキャリアを見つけましょう</p>
+    <div class="search-box">
+      <form id="searchForm">
+        <div class="search-container">
+          <h1>キーワードで探す</h1> 
+          <input type="text" placeholder="名称/会社名/雇用形態を入力してください" class="search-input" id="searchInput"/>
+          <button type="submit" class="search-button">検索</button>
+        </div>
+      </form>
+    </div>
+    
+    <main>
+      <section>
+        <div class="jobs-container" id="jobsContainer">
+
+        </div>
+      </section>
+    </main>
+
+    <div class="search-by-location">
+      <h1>場所から探す</h1> 
+      <div class="location-buttons">
+        <button class="location-button" data-location="Tokyo">東京</button>
+        <button class="location-button" data-location="Yokohama">横浜</button>
+        <button class="location-button" data-location="Osaka">大阪</button>
+        <button class="location-button" data-location="Nagoya">名古屋</button>
+        <button class="location-button" data-location="Sapporo">札幌</button>
+        <button class="location-button" data-location="Fukuoka">福岡</button>
+        <button class="location-button" data-location="Kawasaki">川崎</button>
+        <button class="location-button" data-location="Kope">コペ</button>
+        <button class="location-button" data-location="Kyoto">京都</button>
+        <button class="location-button" data-location="Saitama">埼玉県</button>
+        <button class="location-button" data-location="Hokkaido">北海道</button>
+        <button class="location-button" data-location="Aomori">青森</button>
+        <button class="location-button" data-location="Iwate">岩手県</button>
+        <button class="location-button" data-location="Aichi">愛知県</button>
+      </div>
+      <div class="map-container">
+        <img src="./images/japan-map-3.png" class="map"/>
+      </div>
+
+      <main>
+        <section>
+            <div class="jobs-container2" id="jobsContainer2">
+
+            </div>
+        </section>
+      </main>
+    </div>
+      
+  </section>
+  <!-- END: job-listings -->
+
+  <!-- START: about-japan -->
+  <section id="about" class="about-container">
+    <div class="about-content">
+      <div class="main-info">
+        <h2 class="main-title">日本について</h2>
+        <p class="main-description">豊かな文化遺産と独特のライフスタイルで知られる日本は、伝統と現代性がシームレスに融合する国です。日本文化の中心には、世代を超えて受け継がれてきた伝統に対する深い敬意があり、芸術、建築、日常の習慣に反映されています。この国の自然に対する畏敬の念は、その景観に点在する緻密な庭園、静かな寺院、活気に満ちた祭りに明らかです。絶妙な味と細心の注意を払った盛り付けで世界的に有名な日本料理は、この国の料理の才能と細部へのこだわりを反映しています。 「おもてなし」の概念は日本社会に深く根付いており、個人が優れたサービスを提供し、ゲストに思い出に残る体験を作り出すよう努めています。日本の職人技へのこだわりは、精巧な陶器や繊細な織物から優雅な茶道の芸術に至るまで、多様な伝統芸術や工芸品に表れています。しかし、これらの時代を超越した伝統と並んで、日本はイノベーションと技術進歩の中心地でもあり、東京や大阪のような賑やかな大都市が最先端の技術と都市生活をリードしています。ペースの速い現代のライフスタイルにもかかわらず、日本人は強い共同体意識と社会の調和を尊重しており、そのことが安全性、清潔さ、秩序の良さという国の評判に貢献しています。のどかな田園地帯から活気に満ちた街路まで、日本は世界中からの旅行者を魅了し、インスピレーションを与えるさまざまな体験を提供します。</p>
+      </div>
+
+      <div class="blogs-grid">
+        <!-- card 1 -->
+        <div class="blogs-card">
+          <img class="blogs-img" src="./images/blog1-cover1.png" alt="blog1">
+          <div class="blogs-info">
+            <div class="blogs-title">初詣：日本の新年の祝い方</div>
+            <div class="blogs-description">
+              初詣は、新年を迎えるために神社や寺院を訪れる日本の伝統です。休暇中に日本に滞在するなら、絶対に見逃せない文化体験です。
+            </div>
+          </div>
+          <a href="" class="read-button">読む</a>
+        </div>
+        <!-- card 2 -->
+        <div class="blogs-card">
+          <img class="blogs-img" src="./images/blog2-cover1.png" alt="blog2">
+          <div class="blogs-info">
+            <div class="blogs-title">探索: 日本の結婚</div>
+            <div class="blogs-description">
+              日本のアニメ、マンガ、ドラマでは、家事に忙しい妻や別々の部屋で寝ている夫婦など、典型的な日本の家族の日常生活を垣間見ることができます。あなたの国でもそうなのですか？
+            </div>
+          </div>
+            <a href="" class="read-button">読む</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- END: about-japan -->
+
+ 
+  <!-- START: contact -->
+  <section id="contact" class="contact-container">
+    <div class="contact-content">
+      <div class="main-info">
+        <h2 class="main-title">お問い合わせ</h2>
+        <p class="main-description">
+          お仕事をお探しの方、ご質問などございましたらお気軽にお問い合わせください。
+        </p>
+      </div>
+      <div class="sub1-contact-container">
+        <div class="number-container">
+          <h3>お問い合わせ ...</h3>
+          <i class="fa-solid fa-phone"></i>
+          <p class="phone">(+81) 6-6941-3044</p>
+          <!-- <i class="fa-solid fa-phone"></i> -->
+          <p class="phone">(+81) 6-6941-3650</p>
+        </div>
+
+        <div class="address-container">
+          <h3>お問い合わせください...</h3>
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="address">仕事を探す</p>
+          <p class="address">大阪市中央区大阪城1-1 - 5400002、日本</p>
+        </div>
+      </div>
+
+      <div class="sub2-contact-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.7102566181284!2d135.52327967415636!3d34.6872614839365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e0cd5c283afd%3A0xf01d07d5ca11e41!2sOsaka%20Castle!5e0!3m2!1sen!2sin!4v1713817876207!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+  <!-- END: contact -->
+  <hr> <!-- Horizontal line -->
+  <!-- START: footer -->
+  <section class="footer-container">
+    <div class="footer-content">
+      <p>クマール・シベシュ作 [携帯電話: 9035114358]</p>
+    </div>
+  </section>
+  <!-- END: footer -->
+  <script src="script-ja.js"></script>
+  <script src="https://kit.fontawesome.com/1f959912e2.js" crossorigin="anonymous"></script>
+</body>
+</html>
